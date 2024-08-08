@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(136 240 78 / 51%);
+}
+
+hr{
+    border-color: white;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    width: 10%;
+}
+h1,h3{
+    color: #00acffd9;
+}

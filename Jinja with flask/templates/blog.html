@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--    multiline statements with jinja markup language -->
+    <meta charset="UTF-8">
+    <title>Blog</title>
+</head>
+<body>
+    {% for blog_post in posts: %}
+        <h1>Title : {{ blog_post["title"] }}</h1>
+        {% if blog_post["id"] == given_id : %}
+            <h2>Subtitle: {{ blog_post["subtitle"] }}</h2>
+            <h3>Content: {{ blog_post["body"] }}</h3>
+        {% endif %}
+    {% endfor %}
+</body>
+</html>
